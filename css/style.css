@@ -1,0 +1,225 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.header {
+	display: flex;	
+	justify-content: space-between;
+	position: fixed;
+	top:10px;
+	left: 0;
+	right: 10px;
+	z-index: 10;
+
+}
+
+.logo {
+	background: black;
+	color: white;
+	font-family: 'Kalam' ;
+	padding: 5px;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+.header-nav{
+	display: flex;	
+	align-items: center;
+
+}
+		
+.header-link {
+	color: black;
+	padding: 5px 10px;
+	font-size: 30px;
+	font-weight: 500;
+	font-family: 'Montserrat' ;
+	background-color: white;
+	transition: all 0.35s;
+}
+.active {
+	background-color: black;
+	color: white;
+}
+
+.header-link:hover {
+	background-color: black;
+	color: white;
+
+}
+.section-img {
+	background-image: url(../img/bg-connecting.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.body-paper {
+	background-image: url(../img/background-lines.png);
+
+
+}
+.section-name {
+	margin-bottom:50px;
+	margin-top: 10px;
+	height: 58px;
+	display: flex;
+	align-items: center; 
+	font-family: 'Montserrat';
+	padding-left: 210px;
+	font-size: 30px;
+	font-weight: 500;
+	
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+
+
+.article-preview {
+	width:  880px;
+	height: 250px;
+	display: flex;
+	flex-direction: row;
+	background: #f0f0f0;
+	margin:10px;
+
+
+}
+
+
+.event-table {
+	width: 50%;
+	margin-left: 400px;
+	height: 500px;
+	background-color: silver;
+	
+}
+
+
+.article1{
+
+	text-align: right;
+}
+
+.people-name {
+	margin-top: 60px;
+	margin-left: 25px;
+	font-family: 'Montserrat';
+	font-size: 65px;
+	font:bold;
+
+}
+.people-status {
+
+	margin-top: 20px;
+	margin-left: 25px;
+	font-family: 'Montserrat';
+	font-size: 25px;
+}
+.main-section {
+
+	background-image: url(../img/background-home.png);
+	
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	
+
+}
+.feedback {
+	margin-top: 10px;
+	padding-top: 40px; 
+	width: 880px;
+	display: inline-block;
+	background: #f0f0f0;
+	margin-bottom: 20px;
+}
+
+.subscribe-form {
+	padding: 50px;
+
+	display: flex;
+	flex-direction: row;
+
+
+}
+.input-box {
+
+	margin:10px;
+	width: 285px;
+	
+	border-left: 3px;
+	border-top: 3px;
+	border-right: 3px;
+	background: #f0f0f0;
+	border-color: black;
+
+}
+.text-read-article{
+	color: #666;
+	letter-spacing:3px;
+	margin: 30px;
+	font-size: 22px;
+	text-align: center;
+}
+
+.button-subscribe{
+
+	width: 200px;
+	height: 50px;
+	background-color: #333; 
+	color: white;
+	border-color: black;
+}
+
+.button-subscribe:hover{
+	background-color:#f0f0f0;
+	color: black;
+}
+	
+.we-in-social-networks {
+	padding: 10px;
+	width: 880px;
+	display: inline-flex;
+	flex-direction: row;
+	background-color: #ddd;
+	border:solid 5px white;
+	flex:1 1;
+}
+.social-icon {
+
+	font-size: 30px;
+	padding: 15px;
+	margin-left: 8px;
+	margin-right: 8px;
+	color: black;
+}
+.we-in-networks-text {
+	flex:1 1;
+	color: #666;
+	letter-spacing:3px;
+	padding: 15px;
+	text-align: center;
+	font-size: 22px;
+
+}
+.social-icon-container{
+	flex:1 1;
+	display: flex;
+	flex-direction: row;
+}
+.social-icon:hover {
+	color: #eee;
+}
