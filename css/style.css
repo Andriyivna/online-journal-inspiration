@@ -67,9 +67,7 @@ a {
 }
 .event-body-paper {
 
-	background-image: url(../img/background-home.png);
-
-	
+	background-image: url(../img/background-home.png);	
 }
 .section-name {
 	margin-bottom:50px;
@@ -89,8 +87,6 @@ a {
 	margin: auto;
 }
 
-
-
 .article-preview {
 	width:  880px;
 	height: 250px;
@@ -101,10 +97,6 @@ a {
 
 
 }
-
-
-
-
 
 .article1{
 
@@ -193,9 +185,12 @@ a {
 	display: inline-flex;
 	flex-direction: row;
 	background-color: #ddd;
-	border:solid 5px white;
+	border:solid 5px #bbb;
 	flex:1 1;
+	margin-bottom: 30px;
 }
+
+
 .social-icon {
 
 	font-size: 30px;
@@ -290,4 +285,30 @@ a {
 
 	transform: scale(1.1);
 	
+}
+
+.about-us-section {
+
+	max-width: 900px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.what-is-inspiration {
+font-family: 'Montserrat';
+margin-bottom: 20px;
+
+}
+.text-about-us {
+
+	font-family: 'Montserrat';
+	margin-bottom: 10px;
+}
+
+.inspiration-is {
+	background-color: #444;
+	
+	width: 100%;
+	max-width: 880px;
+	padding: 10px;
 }
