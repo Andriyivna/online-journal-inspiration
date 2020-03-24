@@ -104,11 +104,14 @@ a {
 }
 
 .people-name {
-	margin-top: 60px;
+	display: block;
+
+	margin-top: 40px;
 	margin-left: 25px;
 	font-family: 'Montserrat';
 	font-size: 65px;
-	font:bold;
+	color: black;
+	font-weight: 600;
 
 }
 .people-status {
@@ -306,9 +309,94 @@ margin-bottom: 20px;
 }
 
 .inspiration-is {
-	background-color: #444;
+	background-color: #333;
 	
 	width: 100%;
 	max-width: 880px;
 	padding: 10px;
 }
+.leaders {
+
+	margin-top: 60px;
+	margin-left: 40px;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 14px;
+}
+
+.leadership-journal {
+
+	margin-top: 30px;
+	margin-left: 40px;
+	color: #ddd;
+	font-family: 'Montserrat';
+	font-size: 40px;
+}
+
+.year {
+
+	margin-top: 30px;
+	margin-left: 40px;
+	font-family: 'Montserrat';
+	color: #ccc;
+	letter-spacing: 2px;
+}
+.line-img {
+	margin: 40px;
+	width: 750px;
+	height: 200px;
+}
+
+.hres-title-container {
+
+	height: auto;
+	width: 100%;
+	text-align: center;
+	background-image: url(../img/live.png);
+	background-repeat: no-repeat;
+}
+.hres-title {
+
+	margin-top: 200px;
+	margin-bottom: 100px;
+	font-family: 'Montserrat';
+	color: black;
+	font-size: 140px;
+	text-decoration: underline;
+    
+	
+}
+.introduction-container {
+
+	margin-top: 50px;
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+	background-image: url(../img/lives.png);
+	background-repeat: no-repeat;
+
+
+}
+.introduction {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+
+}
+.about-hres {
+	font-family: 'Montserrat';
+	font-size: 24px;
+	text-align: left;
+	padding-bottom: 15px;
+
+}
+.margin-top-rigth {
+	margin-top: 80px;
+	padding-left: 50px;
+
+}
+.spase {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
