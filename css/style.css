@@ -400,3 +400,79 @@ margin-bottom: 20px;
 	background-color: rgba(255, 255, 255, 0.8);
 }
 
+
+.stay-hungry {
+	background-image: url(../img/stayHungry.jpg);
+	background-attachment: fixed;
+	height: 100vh;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+	
+}
+.background-dark {
+
+background-color: black;
+
+}
+/*.jobs-name-title {
+color: white;
+font-size:50px; 
+text-align: center;
+}*/
+
+
+
+.obama-about-jobs{
+
+    padding-top: 300px;
+	padding-bottom: 300px;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	margin: auto;
+	max-width: 1020px;
+	font-family: 'Montserrat';
+}
+
+.all-title {
+	padding-bottom: 20px;
+
+	font-family: 'Montserrat';
+	color: white;
+	text-align: center;
+	margin: auto;
+	max-width: 900px;
+	font-size: 40px;
+
+}
+
+.about-steve {
+	padding-bottom: 10px;
+	font-family: 'Montserrat';
+	color: white;
+	text-align: center;
+	margin: auto;
+	max-width: 900px;
+	font-size: 25px;
+}
+.main-section-about-steve {
+
+	background-image: url(../img/apple-logo.jpg);
+	background-repeat: no-repeat;
+}
+.think-different {
+	background-image: url(../img/think.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.second-section-about-jobs {
+
+	background-image: url(../img/stayfoolish.jpg);
+	background-repeat: no-repeat;
+}
