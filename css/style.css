@@ -416,11 +416,11 @@ margin-bottom: 20px;
 background-color: black;
 
 }
-/*.jobs-name-title {
+jobs-name-title {
 color: white;
 font-size:50px; 
 text-align: center;
-}*/
+}
 
 
 
@@ -456,8 +456,10 @@ text-align: center;
 	margin: auto;
 	max-width: 900px;
 	font-size: 25px;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 .main-section-about-steve {
+
 
 	background-image: url(../img/apple-logo.jpg);
 	background-repeat: no-repeat;
@@ -476,3 +478,20 @@ text-align: center;
 	background-image: url(../img/stayfoolish.jpg);
 	background-repeat: no-repeat;
 }
+
+.table-styles {
+	margin: 20px;
+	text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+}
+.table-position{
+
+	padding-top: 150px;
+	text-align: center;
+	margin: auto;
+	max-width: 900px;
+
+}
+
+
