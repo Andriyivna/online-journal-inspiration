@@ -88,8 +88,10 @@ a {
 }
 
 .article-preview {
+	box-shadow: 0;
+	transition: 0.3s;
 	width:  880px;
-	height: 250px;
+	height: auto;
 	display: flex;
 	flex-direction: row;
 	background: #f0f0f0;
@@ -120,6 +122,7 @@ a {
 	margin-left: 25px;
 	font-family: 'Montserrat';
 	font-size: 25px;
+	color: black;
 }
 .main-section {
 
@@ -623,7 +626,128 @@ background-color:rgb(218, 187, 143);
 }
 
 .book-img {
-
-
 	margin-top: 150px;
+}
+
+.corona-block {
+
+    padding: 0px 60px;
+    max-width: 880px;
+    width: 100%;
+    background-color: #f0f0f0;
+    border: solid 5px rgb(200, 20, 20);
+    margin-top: 30px;
+    border-radius: 35px;
+
+}
+
+.read-more-button {
+
+
+}
+.article-preview:hover {
+
+	box-shadow: 4px 3px 11px -2px rgba(0,0,0,0.75);
+}
+.covid-description {
+
+	display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+    justify-content: space-between;
+}
+
+.read-more{
+
+	width: 200px;
+	height: 50px;
+	background-color: rgb(200, 20, 20 , 0.1);
+	color: rgb(200, 20, 20);
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.covid-attention {
+    font-size: 55px;
+    text-align: center;
+    color: rgb(200, 20, 20);
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 30px 0;
+}
+.covid-danger {
+	font-size: 30px;
+	font-family: 'Montserrat';
+
+}
+
+.read-more:hover {
+
+    background-color: rgb(200, 20, 20);
+	color: white;
+}
+
+.corona-section {
+	padding-top: 50px;
+ 	max-width: 800px;
+ 	width: 100%;
+ 	margin: auto;
+}
+
+
+.corona-background {
+
+	background-color: #F4FBFF;
+}
+
+.corona-title {
+	padding-top: 50px;
+	font-size: 60px;
+	font-family: 'Montserrat';
+	color: black;
+	text-align: center;
+}
+.statistic {
+
+	display: flex;
+	flex-direction: row;
+	max-width: 1200px;
+	margin: auto;
+	width: 100%;
+	justify-content: space-between;
+
+}
+	
+.statistic-container {
+        margin-top: 50px;
+		border:solid 2px black;
+		padding: 30px;
+		border-radius: 20px;
+}
+.covid-number-red {
+
+	text-align: center;
+	font-size: 32px;
+	color: rgb(200,20,20);
+	font-family: 'Montserrat';
+	font-weight: 800;
+
+}
+.covid-number-green {
+
+	text-align: center;
+	font-size: 32px;
+	color: green;
+	font-family: 'Montserrat';
+	font-weight: 800;
+
+}
+.covid-number-black {
+
+	text-align: center;
+	font-size: 32px;
+	color: black;
+	font-family: 'Montserrat';
+	font-weight: 800;
 }
