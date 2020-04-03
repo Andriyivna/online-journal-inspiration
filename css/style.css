@@ -124,6 +124,7 @@ a {
 .main-section {
 
 	background-image: url(../img/background-home.png);
+
 	
 	align-items: center;
 	display: flex;
@@ -134,7 +135,9 @@ a {
 .feedback {
 	margin-top: 10px;
 	padding-top: 40px; 
-	width: 880px;
+	width: 100%;
+
+	max-width: 880px;
 	display: inline-block;
 	background: #f0f0f0;
 	margin-bottom: 20px;
@@ -184,7 +187,8 @@ a {
 	
 .we-in-social-networks {
 	padding: 10px;
-	width: 880px;
+	max-width: 880px;
+	width: 100%;
 	display: inline-flex;
 	flex-direction: row;
 	background-color: #ddd;
@@ -209,11 +213,13 @@ a {
 	padding: 15px;
 	text-align: center;
 	font-size: 22px;
+	width: 100%;
 
 }
 .social-icon-container{
 	flex:1 1;
 	display: flex;
+	width: 100%;
 	flex-direction: row;
 }
 .social-icon:hover {
@@ -401,13 +407,17 @@ margin-bottom: 20px;
 }
 
 
-.stay-hungry {
+.jobs-header {
 	background-image: url(../img/stayHungry.jpg);
 	background-attachment: fixed;
 	height: 100vh;
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction:  column;
+    text-align: center;
+	justify-content: center;
 
 	
 }
@@ -416,10 +426,11 @@ margin-bottom: 20px;
 background-color: black;
 
 }
-jobs-name-title {
+.jobs-name-title {
 color: white;
-font-size:50px; 
-text-align: center;
+font-size:120px; 
+margin-right: 600px;
+font-family: 'Montserrat';
 }
 
 
@@ -445,6 +456,7 @@ text-align: center;
 	margin: auto;
 	max-width: 900px;
 	font-size: 40px;
+	background-color: rgba(0, 0, 0, 0.8);
 
 }
 
@@ -461,7 +473,8 @@ text-align: center;
 .main-section-about-steve {
 
 
-	background-image: url(../img/apple-logo.jpg);
+	background-image: url(../img/apple-logo-steve.png);
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 .think-different {
@@ -493,5 +506,124 @@ text-align: center;
 	max-width: 900px;
 
 }
+td {
+	padding: 10px;
+}
+th{
+	padding: 12px;
+}
+
+table {
+	width: 100%;
+}
+
+.top-button {
+  display: none; 
+  position: fixed;
+  bottom: 20px; 
+  right: 30px;
+  border: none;
+  outline: none; 
+  background-color:#f0f0f0; 
+  color: black; 
+  cursor: pointer;
+  padding: 15px; 
+  border-radius: 35px;
+  font-size: 20px; 
+}
+.sandberg-body {
+
+background-color:rgb(218, 187, 143);
+}
+
+.about-sheryl {
+	padding-bottom: 10px;
+	font-family: 'Montserrat';
+	color: black;
+	margin: auto;
+	max-width: 900px;
+	font-size: 30px;
+
+}
+.sheryl-header {
+
+	background-image: url(../img/sheryl-header.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+    background-size: contain;
+   background-position: 25%;
+
+    display: flex;
+    flex-direction:  column;
+    text-align: center;
+	justify-content: center;
+}
+
+.sheryl-name-title {
+
+	color: black;
+    font-size:100px; 
+	margin-left: 500px;
+	font-family: 'Montserrat';
+}
+.sheryl-title {
+
+	padding-bottom: 20px;
+
+	font-family: 'Montserrat';
+	color: black;
+	margin: auto;
+	max-width: 900px;
+	font-size: 40px;
+	
+}
+.first-sheryl-section {
+	padding: 30px;
+	background-color:  rgb(140, 163, 150);
+	text-align: center;
+
+	
+}
+
+.sheryl-div-colour {
+
+    display: inline-block;
+    margin: 150px;
+	padding: 30px;
+	width: 100%;
+	max-width: 1000px;
+    background-color: #F5FAFF;
+    text-align: left;
+}
+
+.third-sheryl-section {
+    background-color: rgb(140, 163, 150);
 
 
+	width: 100%
+	margin: auto;
+
+
+}
+.third-div-sheryl {
+
+	display: flex;
+	flex-direction: row;
+	max-width: 1000px;
+	margin:auto;
+
+
+}
+.about-book {
+
+	background-color: #F5FAFF;
+	margin:20px;
+	padding: 20px;
+
+}
+
+.book-img {
+
+
+	margin-top: 150px;
+}
