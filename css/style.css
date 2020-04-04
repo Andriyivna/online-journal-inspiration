@@ -564,10 +564,10 @@ background-color:rgb(218, 187, 143);
 
 .sheryl-name-title {
 
-	color: black;
     font-size:100px; 
 	margin-left: 500px;
 	font-family: 'Montserrat';
+	transition: 0.25s;
 }
 .sheryl-title {
 
@@ -637,6 +637,7 @@ background-color:rgb(218, 187, 143);
     background-color: #f0f0f0;
     border: solid 5px rgb(200, 20, 20);
     margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 35px;
 
 }
