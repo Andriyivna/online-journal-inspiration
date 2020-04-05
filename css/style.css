@@ -496,6 +496,9 @@ font-family: 'Montserrat';
 }
 
 .table-styles {
+	border-collapse: collapse;
+	
+
 	margin: 20px;
 	text-align: center;
     color: white;
@@ -509,14 +512,18 @@ font-family: 'Montserrat';
 	max-width: 900px;
 
 }
+
 td {
+	border:solid 1px white;
 	padding: 10px;
 }
 th{
+	border:solid 1px white;
 	padding: 12px;
 }
 
 table {
+		
 	width: 100%;
 }
 
@@ -639,7 +646,7 @@ background-color:rgb(218, 187, 143);
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 35px;
-
+	margin-bottom: 30px;
 }
 
 .read-more-button {
