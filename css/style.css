@@ -579,13 +579,15 @@ background-color:rgb(218, 187, 143);
 .sheryl-title {
 
 	padding-bottom: 20px;
-
 	font-family: 'Montserrat';
 	color: black;
 	margin: auto;
 	max-width: 900px;
-	font-size: 40px;
-	
+	font-size: 40px;	
+}
+
+span{
+	display: block;
 }
 .first-sheryl-section {
 	padding: 30px;
