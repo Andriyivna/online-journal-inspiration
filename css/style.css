@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	outline: none;
 }
 
 a {
@@ -651,10 +652,7 @@ span{
 	margin-bottom: 30px;
 }
 
-.read-more-button {
 
-
-}
 .article-preview:hover {
 
 	box-shadow: 4px 3px 11px -2px rgba(0,0,0,0.75);
@@ -676,6 +674,7 @@ span{
 	padding: 10px;
 	font-size: 20px;
 	text-align: center;
+	font-family: 'Montserrat';
 }
 
 .covid-attention {
